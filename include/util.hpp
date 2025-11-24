@@ -15,7 +15,8 @@ namespace dsp {
         
         int n = input.size();
         output.resize(n);
-        int bits = std::log2(n);
+        int bits = 0;
+        for (int tmp = n; tmp > 1; tmp >>= 1) bits++; //tried log2 but got accuracy issues.
 
         for (int i = 0; i < n; i++) {
             int rev = 0;

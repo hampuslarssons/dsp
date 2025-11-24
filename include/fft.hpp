@@ -12,15 +12,16 @@ namespace dsp {
     */
     template<typename T>
     void fft(std::vector<std::complex<T>> & data) {
-        
-        dsp::bit_reverse_copy(data, data);
+        std::complex<T> i(0, 1); // Define imaginary unit
+        std::vector<std::complex<T>> temp;
+        dsp::bit_reverse_copy(data, temp);
+        data = std::move(temp);
 
         int n = data.size();
         int bits = std::log2(n);
 
         for (int s = 0; s < bits; s++){
-            int m = pow(2, s+1);
-            std::complex<T> i(0, 1); // Define imaginary unit
+            int m = 1 << (s+1); // <-- use shift instead of pow since i got accuracy errors using pow
             std::complex<T> omega_m = std::exp(-2.0 * M_PI * i / static_cast<double>(m));
 
             for (int k = 0; k < n ; k+=m){

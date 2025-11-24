@@ -16,8 +16,10 @@ add_library(dsp
 # Tests
 enable_testing()
 add_executable(test_fft tests/fft_testbench.cpp)
+target_include_directories(test_fft PRIVATE include/external)
 target_link_libraries(test_fft dsp)
-add_test(NAME FFTTest COMMAND test_fft)
+add_test(NAME FFTTest COMMAND test_fft --success --reporter=compact)
+
 
 add_executable(test_convolution tests/conv_testbench.cpp)
 target_link_libraries(test_convolution dsp)

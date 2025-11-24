@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/hampuslarsson/Dev/dsp/include
+CXX_INCLUDES = -I/Users/hampuslarsson/Dev/dsp/include -I/Users/hampuslarsson/Dev/dsp/include/external
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 
