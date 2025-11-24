@@ -9,8 +9,8 @@ include_directories(include)
 
 # Library source files
 add_library(dsp
-    src/fft.cpp
     src/conv.cpp
+    src/util.cpp
 )
 
 # Tests

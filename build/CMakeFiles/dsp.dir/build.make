@@ -72,24 +72,10 @@ include CMakeFiles/dsp.dir/flags.make
 CMakeFiles/dsp.dir/codegen:
 .PHONY : CMakeFiles/dsp.dir/codegen
 
-CMakeFiles/dsp.dir/src/fft.cpp.o: CMakeFiles/dsp.dir/flags.make
-CMakeFiles/dsp.dir/src/fft.cpp.o: /Users/hampuslarsson/Dev/dsp/src/fft.cpp
-CMakeFiles/dsp.dir/src/fft.cpp.o: CMakeFiles/dsp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hampuslarsson/Dev/dsp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dsp.dir/src/fft.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dsp.dir/src/fft.cpp.o -MF CMakeFiles/dsp.dir/src/fft.cpp.o.d -o CMakeFiles/dsp.dir/src/fft.cpp.o -c /Users/hampuslarsson/Dev/dsp/src/fft.cpp
-
-CMakeFiles/dsp.dir/src/fft.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dsp.dir/src/fft.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hampuslarsson/Dev/dsp/src/fft.cpp > CMakeFiles/dsp.dir/src/fft.cpp.i
-
-CMakeFiles/dsp.dir/src/fft.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dsp.dir/src/fft.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hampuslarsson/Dev/dsp/src/fft.cpp -o CMakeFiles/dsp.dir/src/fft.cpp.s
-
 CMakeFiles/dsp.dir/src/conv.cpp.o: CMakeFiles/dsp.dir/flags.make
 CMakeFiles/dsp.dir/src/conv.cpp.o: /Users/hampuslarsson/Dev/dsp/src/conv.cpp
 CMakeFiles/dsp.dir/src/conv.cpp.o: CMakeFiles/dsp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hampuslarsson/Dev/dsp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dsp.dir/src/conv.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hampuslarsson/Dev/dsp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dsp.dir/src/conv.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dsp.dir/src/conv.cpp.o -MF CMakeFiles/dsp.dir/src/conv.cpp.o.d -o CMakeFiles/dsp.dir/src/conv.cpp.o -c /Users/hampuslarsson/Dev/dsp/src/conv.cpp
 
 CMakeFiles/dsp.dir/src/conv.cpp.i: cmake_force
@@ -100,16 +86,30 @@ CMakeFiles/dsp.dir/src/conv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dsp.dir/src/conv.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hampuslarsson/Dev/dsp/src/conv.cpp -o CMakeFiles/dsp.dir/src/conv.cpp.s
 
+CMakeFiles/dsp.dir/src/util.cpp.o: CMakeFiles/dsp.dir/flags.make
+CMakeFiles/dsp.dir/src/util.cpp.o: /Users/hampuslarsson/Dev/dsp/src/util.cpp
+CMakeFiles/dsp.dir/src/util.cpp.o: CMakeFiles/dsp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hampuslarsson/Dev/dsp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dsp.dir/src/util.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dsp.dir/src/util.cpp.o -MF CMakeFiles/dsp.dir/src/util.cpp.o.d -o CMakeFiles/dsp.dir/src/util.cpp.o -c /Users/hampuslarsson/Dev/dsp/src/util.cpp
+
+CMakeFiles/dsp.dir/src/util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dsp.dir/src/util.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hampuslarsson/Dev/dsp/src/util.cpp > CMakeFiles/dsp.dir/src/util.cpp.i
+
+CMakeFiles/dsp.dir/src/util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dsp.dir/src/util.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hampuslarsson/Dev/dsp/src/util.cpp -o CMakeFiles/dsp.dir/src/util.cpp.s
+
 # Object files for target dsp
 dsp_OBJECTS = \
-"CMakeFiles/dsp.dir/src/fft.cpp.o" \
-"CMakeFiles/dsp.dir/src/conv.cpp.o"
+"CMakeFiles/dsp.dir/src/conv.cpp.o" \
+"CMakeFiles/dsp.dir/src/util.cpp.o"
 
 # External object files for target dsp
 dsp_EXTERNAL_OBJECTS =
 
-libdsp.a: CMakeFiles/dsp.dir/src/fft.cpp.o
 libdsp.a: CMakeFiles/dsp.dir/src/conv.cpp.o
+libdsp.a: CMakeFiles/dsp.dir/src/util.cpp.o
 libdsp.a: CMakeFiles/dsp.dir/build.make
 libdsp.a: CMakeFiles/dsp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hampuslarsson/Dev/dsp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libdsp.a"

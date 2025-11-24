@@ -189,29 +189,29 @@ src/conv.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsp.dir/build.make CMakeFiles/dsp.dir/src/conv.cpp.s
 .PHONY : src/conv.cpp.s
 
-src/fft.o: src/fft.cpp.o
-.PHONY : src/fft.o
+src/util.o: src/util.cpp.o
+.PHONY : src/util.o
 
 # target to build an object file
-src/fft.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsp.dir/build.make CMakeFiles/dsp.dir/src/fft.cpp.o
-.PHONY : src/fft.cpp.o
+src/util.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsp.dir/build.make CMakeFiles/dsp.dir/src/util.cpp.o
+.PHONY : src/util.cpp.o
 
-src/fft.i: src/fft.cpp.i
-.PHONY : src/fft.i
+src/util.i: src/util.cpp.i
+.PHONY : src/util.i
 
 # target to preprocess a source file
-src/fft.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsp.dir/build.make CMakeFiles/dsp.dir/src/fft.cpp.i
-.PHONY : src/fft.cpp.i
+src/util.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsp.dir/build.make CMakeFiles/dsp.dir/src/util.cpp.i
+.PHONY : src/util.cpp.i
 
-src/fft.s: src/fft.cpp.s
-.PHONY : src/fft.s
+src/util.s: src/util.cpp.s
+.PHONY : src/util.s
 
 # target to generate assembly for a file
-src/fft.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsp.dir/build.make CMakeFiles/dsp.dir/src/fft.cpp.s
-.PHONY : src/fft.cpp.s
+src/util.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsp.dir/build.make CMakeFiles/dsp.dir/src/util.cpp.s
+.PHONY : src/util.cpp.s
 
 tests/conv_testbench.o: tests/conv_testbench.cpp.o
 .PHONY : tests/conv_testbench.o
@@ -276,9 +276,9 @@ help:
 	@echo "... src/conv.o"
 	@echo "... src/conv.i"
 	@echo "... src/conv.s"
-	@echo "... src/fft.o"
-	@echo "... src/fft.i"
-	@echo "... src/fft.s"
+	@echo "... src/util.o"
+	@echo "... src/util.i"
+	@echo "... src/util.s"
 	@echo "... tests/conv_testbench.o"
 	@echo "... tests/conv_testbench.i"
 	@echo "... tests/conv_testbench.s"
