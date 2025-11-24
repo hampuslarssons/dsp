@@ -55,3 +55,22 @@ TEST_CASE("FFT of sinusoid") {
     }
 }
 
+TEST_CASE("FFT of large input") {
+    using T = double;
+    const int N = pow(2,8);
+    std::vector<std::complex<T>> data(N);
+
+    for (int n = 0; n < N; ++n) {
+        data[n] = std::sin(2 * M_PI * n / N);
+    }
+
+    std::vector<std::complex<T>> original = data;
+    dsp::fft(data);
+    dsp::ifft(data);
+
+    for (int i = 0; i < N; ++i) {
+        REQUIRE(std::abs(data[i] - original[i]) < 1e-10);
+    }
+
+}
+
