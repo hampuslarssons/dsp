@@ -14,10 +14,11 @@ namespace dsp {
     void bit_reverse_copy(const std::vector<std::complex<T>> & input, std::vector<std::complex<T>> & output) {
         
         int n = input.size();
-        output.resize(n);
+        output.resize(n); // Ensure output has the correct size
         int bits = 0;
         for (int tmp = n; tmp > 1; tmp >>= 1) bits++; //tried log2 but got accuracy issues.
 
+        // Bit Rreversal
         for (int i = 0; i < n; i++) {
             int rev = 0;
             int x = i;

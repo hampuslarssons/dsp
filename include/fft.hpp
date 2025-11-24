@@ -13,17 +13,20 @@ namespace dsp {
     template<typename T>
     void fft(std::vector<std::complex<T>> & data) {
         std::complex<T> i(0, 1); // Define imaginary unit
+
+        // Safe use of bit-reverse-copy
         std::vector<std::complex<T>> temp;
         dsp::bit_reverse_copy(data, temp);
         data = std::move(temp);
 
         int n = data.size();
-        int bits = std::log2(n);
+        int bits = std::log2(n); // Number of stages, log2 works here, presumably since n is a power of 2.
 
         for (int s = 0; s < bits; s++){
-            int m = 1 << (s+1); // <-- use shift instead of pow since i got accuracy errors using pow
+            int m = 1 << (s+1); // Using shift instead of pow since i got accuracy errors using pow
             std::complex<T> omega_m = std::exp(-2.0 * M_PI * i / static_cast<double>(m));
 
+            // This is the 'for' that does the butterfly operations, see Cooley-Tukey
             for (int k = 0; k < n ; k+=m){
                 std::complex<T> omega(1, 0);
                 for(int j = 0; j < m/2; j++){
@@ -45,7 +48,7 @@ namespace dsp {
             x = std::conj(x); //Conjugate
         }
 
-        fft(data);
+        fft(data); // FFT
         
         for (auto& x : data) {
             x = std::conj(x); // Conjugate
