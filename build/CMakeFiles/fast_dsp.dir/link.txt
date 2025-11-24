@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfast_dsp.a CMakeFiles/fast_dsp.dir/src/fft.cpp.o CMakeFiles/fast_dsp.dir/src/conv.cpp.o
+/usr/bin/ranlib libfast_dsp.a

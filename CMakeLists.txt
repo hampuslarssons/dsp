@@ -8,17 +8,17 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(include)
 
 # Library source files
-add_library(fast_dsp
+add_library(dsp
     src/fft.cpp
-    src/convolution.cpp
+    src/conv.cpp
 )
 
 # Tests
 enable_testing()
-add_executable(test_fft tests/test_fft.cpp)
-target_link_libraries(test_fft fast_dsp)
+add_executable(test_fft tests/fft_testbench.cpp)
+target_link_libraries(test_fft dsp)
 add_test(NAME FFTTest COMMAND test_fft)
 
-add_executable(test_convolution tests/test_convolution.cpp)
-target_link_libraries(test_convolution fast_dsp)
+add_executable(test_convolution tests/conv_testbench.cpp)
+target_link_libraries(test_convolution dsp)
 add_test(NAME ConvolutionTest COMMAND test_convolution)
