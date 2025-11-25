@@ -61,4 +61,19 @@ TEST_CASE("Expected output of FFT Convolution") {
     }
 }
 
+TEST_CASE("FFT Convolution matches Time Domain Convolution") {
+    using T = double;
+
+    std::vector<std::complex<double>> f = {1, 2, 3};
+    std::vector<std::complex<double>> g = {0, 1, 0.5};
+
+    std::vector<std::complex<T>> time_domain_result = dsp::time_domain_convolve(f, g);
+    std::vector<std::complex<T>> fft_result = dsp::fft_convolve(f, g);
+
+    REQUIRE(time_domain_result.size() == fft_result.size());
+    for (std::size_t i = 0; i < time_domain_result.size(); ++i) {
+        REQUIRE(fft_result[i].real() == Approx(time_domain_result[i].real()).margin(1e-10));
+        REQUIRE(fft_result[i].imag() == Approx(time_domain_result[i].imag()).margin(1e-10));
+    }
+}
 
