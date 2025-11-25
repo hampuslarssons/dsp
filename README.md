@@ -2,7 +2,7 @@
 ### by Hampus Larsson
 
 ## Summary
-A signal processing library currently implementing the FFT using the Radix-2 with bit reversal method. Convolution to be implemented.
+A signal processing library currently implementing the FFT using the Radix-2 with bit reversal method, as well as discrete time-domain convolution (as defined by Damelin & Miller). FFT convolution is TODO. 
 ### Features
 - C++ Header-Only Signal Processing Library
 - Templated Design
