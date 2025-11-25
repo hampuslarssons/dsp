@@ -74,3 +74,15 @@ TEST_CASE("FFT of large input") {
 
 }
 
+TEST_CASE("FFT of negative & complex input") {
+    using T = double;
+    std::vector<std::complex<T>> data = {
+        {1,1}, {2,-1}, {-3,0}, {4,-2}
+    };
+    std::vector<std::complex<T>> original = data;
+    dsp::fft(data);
+    dsp::ifft(data);
+    for (size_t i = 0; i < data.size(); ++i)
+        REQUIRE(std::abs(data[i] - original[i]) < 1e-10);   
+}
+

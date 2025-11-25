@@ -77,3 +77,39 @@ TEST_CASE("FFT Convolution matches Time Domain Convolution") {
     }
 }
 
+TEST_CASE("Convolution with zero input") {
+    using T = double;
+    std::vector<std::complex<T>> f = {0,0,0,0};
+    std::vector<std::complex<T>> g = {-1.0, 0, 3.0 ,4};
+
+    auto time_domain_result = dsp::time_domain_convolve(f,g);
+    auto fft_result = dsp::fft_convolve(f,g);
+
+    for (const auto &val : time_domain_result) REQUIRE(val == std::complex<T>(0,0));
+    for (const auto &val : fft_result) REQUIRE(val == std::complex<T>(0,0));
+}
+
+TEST_CASE("Convolution with complex numbers") {
+    using T = double;
+
+    std::vector<std::complex<T>> f = {{1.0, 1.0}, {2.0, -1.0}, {0.0, 3.0}};
+    std::vector<std::complex<T>> g = {{1.0, 0.0}, {0.0, 1.0}};
+    std::vector<std::complex<T>> expected_output = {{1.0, 1.0}, {1.0, 0.0}, {1.0, 5.0}, {-3.0, 0.0}};
+
+    // Test time-domain convolution
+    auto td_result = dsp::time_domain_convolve(f, g);
+    REQUIRE(td_result.size() == expected_output.size());
+    for (size_t i = 0; i < td_result.size(); ++i) {
+        REQUIRE(td_result[i].real() == Approx(expected_output[i].real()).margin(1e-12));
+        REQUIRE(td_result[i].imag() == Approx(expected_output[i].imag()).margin(1e-12));
+    }
+
+    // Test FFT-based convolution
+    auto fft_result = dsp::fft_convolve(f, g);
+    REQUIRE(fft_result.size() == expected_output.size());
+    for (size_t i = 0; i < fft_result.size(); ++i) {
+        REQUIRE(fft_result[i].real() == Approx(expected_output[i].real()).margin(1e-12));
+        REQUIRE(fft_result[i].imag() == Approx(expected_output[i].imag()).margin(1e-12));
+    }
+}
+

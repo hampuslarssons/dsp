@@ -8,8 +8,8 @@ A signal processing library currently implementing the FFT using the Radix-2 wit
 - Convolution
 
 ## Structure
-- `include/dsp/fft.hpp` - Header file for FFT and Inverse FFT functions.
-- `include/dsp/conv.hpp` - Header file for convolution functions.
+- `include/fft.hpp` - Header file for FFT and Inverse FFT functions.
+- `include/conv.hpp` - Header file for convolution functions.
 - `tests/fft_testbench.cpp` - Testbench for FFT and Inverse FFT functions using Catch2.
 - `tests/conv_testbench.cpp` - Testbench for convolution functions using Catch2.
 
