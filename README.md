@@ -1,12 +1,17 @@
 # Signal Processing Library
 
 ## Summary
-A signal processing library currently implementing the FFT using the Radix-2 with bit reversal method, as well as discrete time-domain convolution (as defined by Damelin & Miller) + FFT convolution.
 A signal processing library currently implementing the FFT using the Radix-2 with bit reversal method. It also supports discrete time-domain convolution (as defined by Damelin & Miller) and FFT convolution.
 - Header-only C++ signal processing library
 - Templated Design
 - Fast Fourier Transform
 - Convolution
+
+## Structure
+- `include/dsp/fft.hpp` - Header file for FFT and Inverse FFT functions.
+- `include/dsp/conv.hpp` - Header file for convolution functions.
+- `tests/fft_testbench.cpp` - Testbench for FFT and Inverse FFT functions using Catch2.
+- `tests/conv_testbench.cpp` - Testbench for convolution functions using Catch2.
 
 ## Usage
 ### Build Instructions
