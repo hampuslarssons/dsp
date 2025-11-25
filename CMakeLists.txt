@@ -9,8 +9,7 @@ include_directories(include)
 
 # Library source files
 add_library(dsp
-    src/conv.cpp
-    src/util.cpp
+    src/example.cpp
 )
 
 # Tests
