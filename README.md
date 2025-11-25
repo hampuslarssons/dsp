@@ -8,7 +8,7 @@ A signal processing library currently implementing the FFT using the Radix-2 wit
 - Templated Design
 
 ## Usage
-### Build Instructions (Apple Silicon Mac)
+### Build Instructions (verified on Apple Silicon Mac)
 First, ensure you have cmake:
 
 ```
@@ -19,11 +19,11 @@ Build using:
 ```
 cmake -S . -B build && cmake --build build
 ```
-### Run FFT Testbench
-Testing is performed using the Catch2 framework (https://github.com/catchorg/Catch2). In the current version of this library, testing is only supported for the FFT.
+### Run Testbench
+Testing is performed using the Catch2 framework (https://github.com/catchorg/Catch2). After building navigate to the *build* directory and execute:
 
 ```
-./build/test_fft
+ctest
 ```
 ### Usage Example
 ```

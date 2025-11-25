@@ -1,0 +1,326 @@
+Start testing: Nov 25 13:19 CET
+----------------------------------------------------------
+1/2 Testing: FFTTest
+1/2 Test: FFTTest
+Command: "/Users/hampuslarsson/Dev/dsp/build/test_fft" "--success" "--reporter=compact"
+Directory: /Users/hampuslarsson/Dev/dsp/build
+"FFTTest" start time: Nov 25 13:19 CET
+Output:
+----------------------------------------------------------
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:15: PASSED: data.size() == 4 for: 4 == 4
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:19: PASSED: std::abs(val - std::complex<T>(1, 0)) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:19: PASSED: std::abs(val - std::complex<T>(1, 0)) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:19: PASSED: std::abs(val - std::complex<T>(1, 0)) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:19: PASSED: std::abs(val - std::complex<T>(1, 0)) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:34: PASSED: data.size() == original.size() for: 4 == 4
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:37: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:37: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:37: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:37: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:54: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:54: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:54: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:54: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:54: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:54: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:54: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:54: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+/Users/hampuslarsson/Dev/dsp/tests/fft_testbench.cpp:72: PASSED: std::abs(data[i] - original[i]) < 1e-10 for: 0.0 < 0.0000000001
+Passed all 4 test cases with 274 assertions.
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FFTTest" end time: Nov 25 13:19 CET
+"FFTTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: ConvolutionTest
+2/2 Test: ConvolutionTest
+Command: "/Users/hampuslarsson/Dev/dsp/build/test_convolution" "--success" "--reporter=compact"
+Directory: /Users/hampuslarsson/Dev/dsp/build
+"ConvolutionTest" start time: Nov 25 13:19 CET
+Output:
+----------------------------------------------------------
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:18: PASSED: f_conv_g.size() == EXPECTED_SIZE for: 15 == 15
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:31: PASSED: f_conv_g[i].real() == Approx(expected_output[i].real()) for: 0.0 == Approx( 0.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:32: PASSED: f_conv_g[i].imag() == Approx(expected_output[i].imag()) for: 0.0 == Approx( 0.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:31: PASSED: f_conv_g[i].real() == Approx(expected_output[i].real()) for: 1.0 == Approx( 1.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:32: PASSED: f_conv_g[i].imag() == Approx(expected_output[i].imag()) for: 0.0 == Approx( 0.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:31: PASSED: f_conv_g[i].real() == Approx(expected_output[i].real()) for: 3.0 == Approx( 3.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:32: PASSED: f_conv_g[i].imag() == Approx(expected_output[i].imag()) for: 0.0 == Approx( 0.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:31: PASSED: f_conv_g[i].real() == Approx(expected_output[i].real()) for: 2.0 == Approx( 2.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:32: PASSED: f_conv_g[i].imag() == Approx(expected_output[i].imag()) for: 0.0 == Approx( 0.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:31: PASSED: f_conv_g[i].real() == Approx(expected_output[i].real()) for: 3.0 == Approx( 3.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:32: PASSED: f_conv_g[i].imag() == Approx(expected_output[i].imag()) for: 0.0 == Approx( 0.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:31: PASSED: f_conv_g[i].real() == Approx(expected_output[i].real()) for: 1.0 == Approx( 1.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:32: PASSED: f_conv_g[i].imag() == Approx(expected_output[i].imag()) for: 0.0 == Approx( 0.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:31: PASSED: f_conv_g[i].real() == Approx(expected_output[i].real()) for: 0.0 == Approx( 0.0 )
+/Users/hampuslarsson/Dev/dsp/tests/conv_testbench.cpp:32: PASSED: f_conv_g[i].imag() == Approx(expected_output[i].imag()) for: 0.0 == Approx( 0.0 )
+Passed both 2 test cases with 15 assertions.
+
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"ConvolutionTest" end time: Nov 25 13:19 CET
+"ConvolutionTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 25 13:19 CET
