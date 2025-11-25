@@ -42,3 +42,6 @@
 
 # build directories
 build/
+
+# IDE files
+.vscode/
