@@ -8,8 +8,8 @@ A signal processing library currently implementing the FFT using the Radix-2 wit
 - Templated Design
 
 ## Usage
-### Build Instructions (verified on Apple Silicon Mac)
-First, ensure you have cmake:
+### Build Instructions
+First, ensure you have cmake (example using *brew*):
 
 ```
 brew install cmake
