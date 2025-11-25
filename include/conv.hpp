@@ -34,12 +34,34 @@ namespace dsp {
     }
 
     /*
-    FFT convolution
+    FFT convolution G (fft version of input g) multiplied onto F (fft version of input f)
     */
     template <typename T>
     std::vector<T> fft_convolve(
-        const std::vector<T>& x,
-        const std::vector<T>& h
-    );
+        const std::vector<T>& f,
+        const std::vector<T>& g
+    ) {
+        size_t size = f.size() + g.size() - 1;
+        size_t fft_size = dsp::calc_next_pow2(size);
+
+        std::vector<T> F(fft_size, 0);
+        std::vector<T> G(fft_size, 0);
+        
+        std::copy(f.begin(), f.end(), F.begin());
+        std::copy(g.begin(), g.end(), G.begin());
+
+        dsp::fft(F);
+        dsp::fft(G);    
+
+        for (size_t i = 0; i < fft_size; i++)
+        {
+            F[i] *= G[i];
+        }
+                 
+        dsp::ifft(F);
+        F.resize(size); // Resize to the correct output size
+        
+        return F;
+    }
 
 } // namespace dsp

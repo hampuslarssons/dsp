@@ -31,4 +31,16 @@ namespace dsp {
             output[rev] = input[i];
         }
     }    
+
+   /*
+   Calculate the next power of 2 for size
+   */
+    size_t calc_next_pow2(size_t size){
+        size_t factor = 1;
+        while (factor < size)
+        {
+            factor <<= 1; 
+        }
+        return factor;
+    }
 }

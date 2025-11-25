@@ -24,7 +24,7 @@ namespace dsp {
 
         for (int s = 0; s < bits; s++){
             int m = 1 << (s+1); // Using shift instead of pow since i got accuracy errors using pow
-            std::complex<T> omega_m = std::exp(-2.0 * M_PI * i / static_cast<double>(m));
+            std::complex<T> omega_m = std::exp(-2.0 * M_PI * i / static_cast<T>(m));
 
             // This is the 'for' that does the butterfly operations, see Cooley-Tukey
             for (int k = 0; k < n ; k+=m){
@@ -48,7 +48,7 @@ namespace dsp {
             x = std::conj(x); //Conjugate
         }
 
-        fft(data); // FFT
+        dsp::fft(data); // FFT
         
         for (auto& x : data) {
             x = std::conj(x); // Conjugate
